@@ -10,14 +10,14 @@ export function Experience() {
         {jobs.map((job) => (
           <Card key={job.company} className="border-border bg-card">
             <CardHeader className="pb-3">
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4">
                 <div>
                   <p className="font-semibold text-base">{job.role}</p>
                   <p className="text-sm text-muted-foreground mt-0.5">
                     {job.company} · {job.location}
                   </p>
                 </div>
-                <span className="text-xs text-muted-foreground whitespace-nowrap mt-1">
+                <span className="text-xs text-muted-foreground whitespace-nowrap sm:mt-1">
                   {job.period}
                 </span>
               </div>

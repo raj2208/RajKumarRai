@@ -4,7 +4,7 @@ title: "Junior Platform Engineer"
 location: "Bangalore, India"
 email: "rajkrai22@gmail.com"
 github: "https://github.com/raj2208"
-linkedin: "https://linkedin.com/in/rajkumarrai"
+linkedin: "#"
 summary: "Platform engineer focused on building reliable infrastructure and internal tooling. I enjoy working at the intersection of development and operations — automating toil, improving observability, and helping teams ship faster."
 ---
 
